@@ -32,7 +32,7 @@ import { DeviceEventEmitter } from 'react-native';
     }
 ```
 
-#### To expose a method to JavaScript a Java method must be annotated using @ReactMethod.
+# To expose a method to JavaScript a Java method must be annotated using @ReactMethod.
 
 ```java
   @ReactMethod
