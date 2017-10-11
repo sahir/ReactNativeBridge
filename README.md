@@ -31,3 +31,26 @@ import { DeviceEventEmitter } from 'react-native';
         }
     }
 ```
+
+#### To expose a method to JavaScript a Java method must be annotated using @ReactMethod.
+
+```java
+  @ReactMethod
+    public void showMessage(String message, Callback successCallback) {
+        String finalMsg = message +" Test "+" final message";
+        Toast.makeText(getReactApplicationContext(), finalMsg, Toast.LENGTH_LONG).show();
+        successCallback.invoke(finalMsg);
+    }
+```
+
+
+#### JavaScript
+
+```javascript
+
+var RCTToastAndroid = NativeModules.ToastCustomModule;
+
+RCTToastAndroid.showMessage('Awesome', result => {
+	console.warn(result);
+});
+```
