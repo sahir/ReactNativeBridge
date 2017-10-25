@@ -45,6 +45,8 @@ import { DeviceEventEmitter } from 'react-native';
 
 ```javascript
 
+import { NativeModules } from 'react-native';
+
 var RCTToastAndroid = NativeModules.ToastCustomModule;
 
 RCTToastAndroid.showMessage('Awesome', result => {
