@@ -13,9 +13,6 @@ import com.facebook.react.modules.core.DeviceEventManagerModule;
 
 import javax.annotation.Nullable;
 
-/**
- * Created by punchh_sahir on 14/01/17.
- */
 
 @ReactModule(name = "ToastCustomModule")
 public class ToastCustomModule extends ReactContextBaseJavaModule {
