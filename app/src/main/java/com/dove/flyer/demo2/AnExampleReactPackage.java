@@ -10,10 +10,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Created by punchh_sahir on 15/01/17.
- */
-
 public class AnExampleReactPackage implements ReactPackage {
 
     @Override
