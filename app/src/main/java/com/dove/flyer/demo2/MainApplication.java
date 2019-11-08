@@ -10,10 +10,6 @@ import com.facebook.react.shell.MainReactPackage;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * Created by punchh_sahir on 15/01/17.
- */
-
 public class MainApplication extends Application implements ReactApplication {
 
     @Override
